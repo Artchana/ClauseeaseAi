@@ -6,7 +6,7 @@ import json
 import io
 import os
 
-# PDF/DOCX extraction libraries (you installed PyPDF2 and python-docx)
+# PDF/DOCX extraction libraries 
 try:
     from PyPDF2 import PdfReader
 except Exception:
@@ -31,7 +31,7 @@ class UniqueClauseEase:
             initial_sidebar_state="expanded"
         )
 
-        # Unique modern CSS with legal theme (kept unchanged)
+        # Unique modern CSS 
         st.markdown("""
         <style>
         /* Main theme colors */
